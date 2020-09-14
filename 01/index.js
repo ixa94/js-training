@@ -18,22 +18,22 @@ console.log(fizzBuzz(31));
 
 function toNumber(value) {
     if (value == "" || value == '') {
-        console.log(null);
+        return null;
     }
     else if (value == String(value)) {
-        console.log((Number(value)));
+        return Number(value);
     }
     else if (value == Number(value)) {
-        console.log(value);
+        return value;
     }
     else if (value == !String(value) || value == !Number(value)) {
-        console.log(null);
+        return null
     }
     else if (value == 0) {
-        console.log(null);
+        return null;
     }
     else {
-        console.log(null);
+        return null;
     }
 
 };
@@ -87,7 +87,7 @@ if (a === 0 ){
         let tmp = [];
         tmp.push(SqrtRoot)
         console.log("x = " + Dis);
-        console.log(tmp);
+        return tmp;
     }
     else if(D > 0){
         let tmp = [];
@@ -99,7 +99,7 @@ if (a === 0 ){
         let Dis_2 = `(- ${b} - (${D} ** 0.5))/ (2 * ${a})`;
         console.log("x1 = " + Dis);
         console.log("x2 = " + Dis);
-        console.log(tmp);
+        return tmp;
     }
 
 };
