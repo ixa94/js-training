@@ -24,11 +24,11 @@ div.style.padding = '20px';
      let li = document.createElement('li');
      li.innerHTML = arr[i];
 
-     for (let j = 1; j <= arr[i].length; j++){
-         if (j === i){
-             li.style.color = 'white;'
-         }
-     }
+     // for (let j = 1; j <= arr[i].length; j++){
+     //     if (j === i){
+     //         li.style.color = 'white;'
+     //     }
+     // }
      if ([i] % 2 === 0){
 
          ol.appendChild(li);
@@ -44,5 +44,9 @@ div.style.padding = '20px';
 
 
  }
+
+ //3
+
+
 
 
