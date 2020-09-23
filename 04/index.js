@@ -20,7 +20,7 @@ div.style.padding = '20px';
  p.appendChild(ol);
  const arr = ["Viktor", "Tatiana", "Eduard", "Michael", "Denis", "Peter", "Ann", "Dmitry",
      "Sergey", "Ivan", "Alan"];
- for (let i = 1;i <= arr.length; i++){
+ for (let i = 0;i <= arr.length; i++){
      let li = document.createElement('li');
      li.innerHTML = arr[i];
 
@@ -50,3 +50,14 @@ div.style.padding = '20px';
 
 
 
+function showMessage(text,color,top,left) {
+const divs = document.createElement('div');
+divs.className = 'message';
+divs.innerHTML = text;
+divs.style.background = color;
+divs.style.top = `${top}px`;
+divs.style.left = `${left}px`;
+    document.body.append(divs);
+}
+
+ showMessage('privet','blue',100,50);
