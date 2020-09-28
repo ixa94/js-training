@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+.invalid{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
+#form_1{
+    margin: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    justify-content: center;
+}
+
+.border_red{
+    border: 1px solid red;
+}
+
+input{
+    margin: 10px;
+}
+ button{
+     width: 100%;
+     border-radius: 25px;
+     outline: none;
+ }
+
+ #error{
+     color: red;
+     font-size: 25px;
+ }
